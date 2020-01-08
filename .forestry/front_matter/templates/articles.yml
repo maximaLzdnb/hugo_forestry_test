@@ -1,4 +1,11 @@
 ---
 label: Articles
 hide_body: true
-fields: []
+fields:
+- name: blocks_principaux
+  type: blocks
+  label: Blocks principaux
+  template_types: []
+  config:
+    min: 
+    max: 
