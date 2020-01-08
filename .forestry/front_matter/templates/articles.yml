@@ -2,6 +2,11 @@
 label: Articles
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - name: blocks_principaux
   type: blocks
   label: Blocks principaux
