@@ -14,5 +14,14 @@ fields:
   config:
     min: 
     max: 
+- name: test
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Test
 pages:
 - articles/test.md
